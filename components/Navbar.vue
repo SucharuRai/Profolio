@@ -1,5 +1,5 @@
 <template>
-  <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
     <div class="container">
       <div class="navbar-header">
         <button
@@ -49,10 +49,16 @@
         </ul>
       </nav>
     </div>
-  </header>
+  </div>
 </template>
 
 <style scoped>
+@import "https://fonts.googleapis.com/css?family=Montserrat|Open+Sans";
+.navbar {
+  position: absolute;
+  top: 0%;
+}
+
 .navbar-brand {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
