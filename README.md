@@ -2,6 +2,8 @@
 
 > My Profile Portfolio
 
+![My Profile](./static/Markup.png)
+
 ## Build Setup
 
 ```bash
