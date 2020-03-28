@@ -1,7 +1,7 @@
 <template>
 <body>
   <div class="container-fluid">
-    <img src="../static/scene.svg" alt="Intro-svg">
+    <img class="image" src="../static/scene.svg" alt="Intro-svg">
   </div>
 </body>
 </template>
@@ -19,6 +19,9 @@ export default {
 <style scoped>
 body {
   background-color: #3498db;
+}
+.image{
+  width: 100vw;
 }
 
 .container-fluid {
