@@ -1,40 +1,31 @@
 <template>
 <body>
-  <navbar />
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">Profolio</h1>
-      <h2 class="subtitle">My Profile Portfolio</h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
-    </div>
+  <div class="container-fluid">
+    <img src="../static/scene.svg" alt="Intro-svg">
   </div>
 </body>
 </template>
 
 <script>
 import Logo from "~/components/Logo.vue";
-import Navbar from "~/components/Navbar.vue";
 
 export default {
   components: {
-    Logo,
-    Navbar
+    Logo
   }
 };
 </script>
 
 <style scoped>
 body {
-  background: rgb(217, 37, 37);
+  background-color: #3498db;
 }
 
-.container {
+.container-fluid {
   margin: 0 auto;
-  min-height: 100vh;
+  padding: 0;
+  transform: translateY(45px);
+  min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,4 +53,5 @@ body {
 .links {
   padding-top: 15px;
 }
+
 </style>
