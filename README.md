@@ -4,6 +4,8 @@
 
 > My Profile Portfolio
 
+![My Profile](./static/Markup.png)
+
 ## Build Setup
 
 ```bash
@@ -22,3 +24,5 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+Index Page frontend was inspired from https://github.com/albinotonnina/albinotonnina.com
