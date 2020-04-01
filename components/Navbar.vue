@@ -12,7 +12,7 @@
           </b-navbar-nav>
           <b-navbar-nav>
             <b-nav-item href="#">
-              <img src="~/static/k_hindi.png" alt height="auto" width="25px" />
+              <img src="~/static/k_hindi.svg" alt height="auto" width="25px" />
               कVITA
             </b-nav-item>
           </b-navbar-nav>

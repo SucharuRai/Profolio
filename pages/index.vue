@@ -1,38 +1,40 @@
 <template>
-<body>
-  <div class="container-fluid">
+  <div class="container">
     <img class="image" src="../static/scene.svg" alt="Intro-svg">
+    <img class="image_tab" src="../static/scene_tab.svg" alt="Intro-svg">
+    <aboutMe />
   </div>
-</body>
 </template>
 
 <script>
 import Logo from "~/components/Logo.vue";
+import AboutMe from "~/components/AboutMe.vue";
 
 export default {
   components: {
-    Logo
+    Logo,
+    AboutMe
   }
 };
 </script>
 
 <style scoped>
-body {
+.container {
   background-color: #3498db;
-}
-.image{
-  width: 100vw;
-}
-
-.container-fluid {
   margin: 0 auto;
   padding: 0;
   transform: translateY(45px);
   min-height: auto;
+  max-width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.image{
+  width: 100vw;
 }
 
 .title {
@@ -57,4 +59,14 @@ body {
   padding-top: 15px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .image_tab {
+    display: none;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .image {
+    display: none;
+  }
+}
 </style>
