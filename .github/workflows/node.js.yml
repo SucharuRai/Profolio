@@ -28,5 +28,5 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-    - name: Run Start
-      run: npm start
+    - name: Run Test
+      run: npm test
