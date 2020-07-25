@@ -1,4 +1,4 @@
-
+![Node.js CI](https://github.com/SucharuRai/Profolio/workflows/Node%2Ejs%20CI/badge.svg?branch=master)
 # Profolio
 
 > My Profile Portfolio
