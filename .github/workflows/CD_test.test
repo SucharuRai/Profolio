@@ -32,7 +32,5 @@ jobs:
                 git checkout prod
                 git pull origin prod
                 
-                sudo systemctl restart website-backend.service
-                deactivate
-                cd ~
-                sudo systemctl restart nginx
+                ....
+                ....
